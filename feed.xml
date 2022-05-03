@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Test</title>
+    <title>Blog</title>
     <link href="https://lscherub.github.io/blog/feed.xml" rel="self" />
     <link href="https://lscherub.github.io/blog" />
-    <updated>1969-12-31T16:00:00-08:00</updated>
+    <updated>2022-05-02T20:13:17-07:00</updated>
     <author>
         <name>Loveleen</name>
     </author>
     <id>https://lscherub.github.io/blog</id>
 
+    <entry>
+        <title>First Post</title>
+        <author>
+            <name>Loveleen</name>
+        </author>
+        <link href="https://lscherub.github.io/blog/first-post.html"/>
+        <id>https://lscherub.github.io/blog/first-post.html</id>
+
+        <updated>2022-05-02T20:13:17-07:00</updated>
+            <summary>
+                <![CDATA[
+                     This is my very first post, I'm testing it with pubii. Let's see how well it can perform.&nbsp; 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    This is my very first post, I'm testing it with pubii. Let's see how well it can perform.&nbsp;
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>
